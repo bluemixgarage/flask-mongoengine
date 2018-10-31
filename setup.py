@@ -40,7 +40,7 @@ setup(
     license='BSD',
     author='Ross Lawley',
     author_email='ross.lawley@gmail.com',
-    test_suite='nose.collector',
+    #test_suite='nose.collector',
     zip_safe=False,
     platforms='any',
     install_requires=[
@@ -52,8 +52,8 @@ setup(
     packages=['flask_mongoengine',
               'flask_mongoengine.wtf'],
     include_package_data=True,
-    tests_require=test_requirements,
-    setup_requires=test_requirements,  # Allow proper nose usage with setuptools and tox
+    #tests_require=test_requirements,
+    #setup_requires=test_requirements,  # Allow proper nose usage with setuptools and tox
     description=description,
     long_description=long_description,
     classifiers=[
